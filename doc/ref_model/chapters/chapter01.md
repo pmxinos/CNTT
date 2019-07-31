@@ -19,9 +19,9 @@
 
 <a name="1.1"></a>
 ## 1.1 Overview & Problem Statement
-The main concept of NFV (Network Function Virtualization) is the ability to use general purpose compute hardware and platforms to run multiple VNFs (Virtualised Network Functions) and hence achieving the desired CapEx and OpEx savings. However, one of big challenges NFV is facing with VNF vendors is that vendors, while building or designing their virtualized services (whether it's VoLTE, EPC, or enterprise services like SD-WAN (Software Defined Wide Area Network)), must bring their own set of infrastructure requirements and custom design parameters. This attitude from vendors triggered the creation of various vendor/function specific silos which are incompatible with each other and have different operating models. In addition, this makes the onboarding and certification processes of VNFs (coming from different vendors) hard to automate and standardise.
+The main concept of NFV (Network Function Virtualization) is the ability to use general purpose compute hardware and platforms to run multiple VNFs (Virtualised Network Functions) and hence achieving the desired CapEx and OpEx savings. However, one of big challenges NFV is facing with VNF vendors is that, while building or designing their virtualized services (whether it's VoLTE, EPC, or enterprise services like SD-WAN (Software Defined Wide Area Network)), they must bring their own set of infrastructure requirements and custom design parameters. This attitude from vendors has triggered the creation of various vendor/function specific silos which are incompatible with each other and have different operating models. In addition, this makes the onboarding and certification processes of VNFs (coming from different vendors) hard to automate and standardise.
  
-Therefore, for a true cloud type deployment, a model, which relies on engagement with specific vendors and unique infrastructure, needs to be reversed in a way that there is a lot more consistency on the infrastructure. Vendors need to bring their software to run on pre-defined environment with common capabilities. That common infrastructure, whether it is optimized for IT (Information Technology) workloads, NFV workloads, or even for AI (Artificial Intelligence) workloads, needs to be fully abstracted to VNFs so that it can be a standard offer.
+Therefore, for a true cloud type deployment, a model which relies on engagement with specific vendors and unique infrastructure needs to be reversed in a way that there is a lot more consistency on the infrastructure. Vendors need to bring their software to run on a pre-defined environment with common capabilities. That common infrastructure, whether it is optimized for IT (Information Technology) workloads, NFV workloads, or even for AI (Artificial Intelligence) workloads, needs to be fully abstracted to VNFs so that it can be a standard offer.
  
 Additionally, to bring the most value to telco operators as well as vendors, agreeing on a standard set of infrastructure profiles for vendors to use for their VNFs is needed within the industry.
 
@@ -36,7 +36,7 @@ The benefits of this approach are:
   - By defining abstracted infrastructure capabilities, and the metrics by which they are measured, the onboarding and certification process for both NFVI and VNFs can be standardised.
   - Supply chain, procurement and assurance teams can also then use these metrics to more accurately assess the most efficient / best value vendor for each scenario.
 - Better utilization
-  - Mapping VNFs to flavours which are properly mapped to IaaS will bring better utilization, than current VNFs expressing variety of instance types as their needs on IaaS.
+  - Mapping VNFs to flavours which are properly mapped to IaaS will bring better utilization, than current VNFs expressing a variety of instance types as their needs on IaaS.
 
 <!--<a name="1.2"></a>
 ## 1.2	Problem Statement
